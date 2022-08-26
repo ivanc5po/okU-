@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 driver = webdriver.Firefox()
 driver.get("https://www.okx.com/hk/trade-convert/stablecoin/usdt")
-time.sleep(30)
+time.sleep(60)
 while True:
     time.sleep(3)
     try:
